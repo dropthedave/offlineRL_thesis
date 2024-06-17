@@ -1,0 +1,25 @@
+{
+    "experiment_params": {
+        "transitions_online": 100000,
+        "agent_types": ["BC", "DQN", "REM", "CQL"],
+        "batch_size_offline" : 128,
+        "runs_online": 5,
+        "runs_offline": 1,
+        "n_collect_off":500
+    },
+
+    "params_gp" : {
+        "n_pop": 40,
+        "cxpb": 0.9,
+        "mutpb": 0.1,
+        "ngen": 40,
+        "opt_direction": 1.0,
+        "eval_episodes": 1,
+        "tournsize": 4,
+        "mut_min": 2,
+        "mut_max": 5,
+        "maxsize":1000,
+        "ms": 0.001,
+        "runs_offline": 1
+    }
+}
