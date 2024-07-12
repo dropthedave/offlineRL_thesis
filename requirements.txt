@@ -1,0 +1,15 @@
+deap==1.4.1
+gym==0.26.2
+gym_games==1.0.3
+gym_minigrid==1.2.2
+hyperloglog==0.0.14
+matplotlib==3.6.3
+numpy==1.24.4
+pandas==2.0.3
+plotly==5.22.0
+pygraphviz==1.9
+scipy==1.10.1
+seaborn==0.13.2
+statsmodels==0.14.1
+torch==1.8.1
+tqdm==4.66.2
